@@ -1,0 +1,24 @@
+@import '../../../tokens/variables';
+@import '../../../foundations/color/text';
+@import '../../../foundations/color/background';
+@import '../../../foundations/text/brsonoma';
+
+
+div .discount{
+    border-radius: 0px $crds-gl-spacing-md;
+    background: $crds-sp-color-background-gradient;
+    padding: $crds-gl-spacing-sm;
+    color: $crds-sp-color-text-white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: $crds-gl-spacing-xxs;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    @extend .brsonoma-subtitle-large;
+}
+div .discount p{
+    margin: 0;
+    @extend .brsonoma-label-small
+}

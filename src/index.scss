@@ -1,0 +1,59 @@
+@import './tokens/_variables.scss';
+@import './foundations/color/border';
+@import './foundations/color/background';
+@import './foundations/color/text';
+@import './foundations/text/poppins';
+@import './foundations/text/brsonoma';
+
+body {
+  margin: 120px;
+}
+
+.card{
+  padding: $crds-gl-spacing-xs $crds-gl-spacing-xs $crds-gl-spacing-xl $crds-gl-spacing-xs;
+  border: $crds-gl-border-width-thin solid $crds-sp-color-border-default;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: $crds-gl-spacing-md;
+  border-radius: $crds-gl-border-radius-lg;
+  width: 100%;
+  height: 100%;
+  background: $crds-sp-color-background-light;
+  scale: 1;
+  transition: .5s all ease;
+  &:hover{
+    scale: 1.005;
+    transition: .5s all ease;
+    box-shadow: $crds-gl-Shadow-size-medium;
+  }
+}
+.card .container{
+  display: flex;
+  padding: $crds-gl-spacing-xs;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $crds-gl-spacing-md;
+  align-self: stretch;
+}
+.card image{
+  width: 100%;
+}
+.cardContainer{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: $crds-gl-spacing-3xl;
+}
+.section h1{
+  width: 100%;
+  text-align: center;
+}
+span{
+  background: $crds-sp-color-text-gradient; 
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+.imagecontainer{
+  max-height: 120px;
+}

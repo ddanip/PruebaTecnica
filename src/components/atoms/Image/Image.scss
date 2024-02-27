@@ -1,0 +1,15 @@
+@import '../../../tokens/variables';
+@import '../../../foundations/color/text';
+@import '../../../foundations/color/background';
+
+
+img{
+    border-radius: $crds-gl-border-radius-md;
+    background-size: cover;
+    min-width: 240px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px; 
+    object-fit: cover; 
+    object-position: center;
+}

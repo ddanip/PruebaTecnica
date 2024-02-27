@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/br-sonoma');
+:root{
+    font-family: poppins;
+}
+p{
+    margin: 0;
+}
+$crds-gl-font-family-poppins: "Poppins";
+$crds-gl-font-family-brsonoma: "BR Sonoma";
+$crds-gl-color-black-50: #03050F;
+$crds-gl-color-grey-50: #B8BDDC;
+$crds-gl-color-white-50: #FFFFFF;
+$crds-gl-color-gradient-horizontal: linear-gradient(90deg, #FE5C03 0%, #F7052D 50.27%, #B40965 100%);
+$crds-gl-color-gradient-diagonal: linear-gradient(225deg, #BB0BE3 0%, #D70998 51.5%, #F32206 100%);
+$crds-gl-spacing-xxs: 4px;
+$crds-gl-spacing-xs: 8px;
+$crds-gl-spacing-sm: 12px;
+$crds-gl-spacing-md: 16px;
+$crds-gl-spacing-lg: 20px;
+$crds-gl-spacing-xl: 24px;
+$crds-gl-spacing-2xl: 28px;
+$crds-gl-spacing-3xl: 32px;
+$crds-gl-border-radius-xs: 4px;
+$crds-gl-border-radius-sm: 8px;
+$crds-gl-border-radius-md: 16px;
+$crds-gl-border-radius-lg: 20px;
+$crds-gl-border-radius-xl: 24px;
+$crds-gl-border-radius-full: 100px;
+$crds-gl-border-width-thin: 1px;
+$crds-gl-border-width-thick: 2px;
+$rds-gl-text-poppins-title-h1: 48px 56px 700;
+$rds-gl-text-poppins-subtitle-small: 20px 28px 700;
+$rds-gl-text-poppins-paragraph-medium1: 14px 16px 600;
+$rds-gl-text-poppins-paragraph-medium2: 14px 16px 700;
+$rds-gl-text-brsonoma-subtitle-large: 20px 20px 600;
+$rds-gl-text-brsonoma-label-small: 10px 12px 600;
+$crds-gl-Shadow-size-medium: 0px 0px 24px 0px rgba(197, 197, 216, 0.16), 0px 16px 16px 0px rgba(80, 78, 197, 0.05);

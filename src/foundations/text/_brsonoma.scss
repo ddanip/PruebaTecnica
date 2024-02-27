@@ -1,0 +1,18 @@
+.brsonoma-subtitle-large{
+    font-family: $crds-gl-font-family-brsonoma;
+    font-size: nth($rds-gl-text-brsonoma-subtitle-large, 1);
+    font-style: normal;
+    font-weight: nth($rds-gl-text-brsonoma-subtitle-large, 3); 
+    line-height: nth($rds-gl-text-brsonoma-subtitle-large, 2); 
+    letter-spacing: 0.2px;
+  }
+  
+.brsonoma-label-small{
+    font-family: $crds-gl-font-family-brsonoma;
+    font-size: nth($rds-gl-text-brsonoma-label-small, 1);
+    font-style: normal;
+    font-weight: nth($rds-gl-text-brsonoma-label-small, 3); 
+    line-height: nth($rds-gl-text-brsonoma-label-small, 2); 
+    letter-spacing: 0.2px;
+    max-width: 344px;
+}

@@ -1,0 +1,22 @@
+@import '../../../tokens/variables';
+@import '../../../foundations/color/text';
+@import '../../../foundations/color/background';
+@import '../../../foundations/text/poppins';
+
+button{
+    background: none; 
+    display: inline-flex;
+    padding: $crds-gl-spacing-sm $crds-gl-spacing-xl;
+    border-radius: $crds-gl-border-radius-full;
+    justify-content: center;
+    align-items: center;
+    color: $crds-sp-color-text-black;
+    transition: .3s ease all;
+    @extend .poppins-medium2;
+    &:hover{
+        background: $crds-sp-color-background-black !important;
+        color: $crds-sp-color-text-white;
+        transition: .3s ease all;
+        cursor: pointer;
+    }
+}
