@@ -8,7 +8,9 @@
 body {
   margin: 120px;
 }
-
+p{
+  margin: 0;
+}
 .card{
   padding: $crds-gl-spacing-xs $crds-gl-spacing-xs $crds-gl-spacing-xl $crds-gl-spacing-xs;
   border: $crds-gl-border-width-thin solid $crds-sp-color-border-default;
