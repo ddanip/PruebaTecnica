@@ -43,7 +43,7 @@ root.render(
       </div>
       <div className='card'>
         <div className='imagecontainer'>
-          <Image src= "https://www.rimac.com/ventadigital/soat/assets/rebrand/coverage/img-coverage-mob.jpg"
+          <Image src= "https://imagescdn.rimac.com/blt80b2fc2d5511a07c/654511eb195164001b5bafb5/soat-conduce-tranquilo.png?auto=webp&quality=150&width=600"
           alt= "SOAT"/>
           <Discount>20%</Discount>
         </div>

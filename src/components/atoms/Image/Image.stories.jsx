@@ -25,7 +25,7 @@ Image02.args = {
 
 export const Image03 = Template.bind({})
 Image03.args = {
-  src: "https://www.rimac.com/ventadigital/soat/assets/rebrand/coverage/img-coverage-mob.jpg",
+  src: "https://imagescdn.rimac.com/blt80b2fc2d5511a07c/654511eb195164001b5bafb5/soat-conduce-tranquilo.png?auto=webp&quality=150&width=600",
   alt: "SOAT"
 };
 
